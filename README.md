@@ -1,7 +1,11 @@
 <h1>My config neovim file</h1>
+
+
 <h2>Plugin Management:</h2>
 * [Pathogen](https://github.com/tpope/vim-pathogen)
 * [Vundle](https://github.com/VundleVim/Vundle.vim)
+
+
 <h2>Plugin use:</h2>
 * [NerdCommenter](https://github.com/scrooloose/nerdcommenter)
 * [Lightline](https://github.com/itchyny/lightline.vim)
