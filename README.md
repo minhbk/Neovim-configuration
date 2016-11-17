@@ -14,4 +14,5 @@
 * [Git Gutter](https://github.com/airblade/vim-gitgutter)
 * [Endwise](https://github.com/tpope/vim-endwise)
 * [Auto-pairs](https://github.com/jiangmiao/auto-pairs)
+* [CtrlP.vim](https://github.com/ctrlpvim/ctrlp.vim)
 
