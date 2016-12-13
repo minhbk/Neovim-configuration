@@ -480,10 +480,11 @@ set number
 set clipboard+=unnamedplus
 
 " NerdTree setup
-let NERDTreeMapActivateNode='`'
+let NERDTreeMapActivateNode='<Tab>'
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
+nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
 
 
 "CtrlP
@@ -501,5 +502,9 @@ let g:NERDCompactSexyComs = 1
 " Align line-wise comment delimiters flush left instead of following code indentation
 let g:NERDDefaultAlign = 'left'
 
+
+" Maps Caps Lock to ESC
+au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
 
 execute pathogen#infect()
