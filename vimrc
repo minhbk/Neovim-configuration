@@ -504,7 +504,7 @@ let g:NERDDefaultAlign = 'left'
 
 
 " Maps Caps Lock to ESC
-au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
-au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
+autocmd VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+autocmd VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
 
 execute pathogen#infect()
