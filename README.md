@@ -17,3 +17,4 @@
 * [CtrlP.vim](https://github.com/ctrlpvim/ctrlp.vim)
 * [Vim-rails](https://github.com/tpope/vim-rails)
 * [SnipMate](https://github.com/garbas/vim-snipmate)
+* [Snippets](https://github.com/honza/vim-snippets)
