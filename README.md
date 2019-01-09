@@ -2,11 +2,11 @@
 
 <h2>Install:</h2>
 ```
-cd ~
-git clone https://github.com/minhbk/Neovim-configuration.git
-mkdir ~/.config
-cd .config
-mkdir ~/nvim
+mkdir -p ~/.config ~/.vim && \
+mkdir -p ~/.vim/bundle ~/.vim/autoload && \
+ln -s ~/.vim ~/.config/nvim && \
+cd ~ && \
+git clone https://github.com/minhbk/Neovim-configuration.git && \
 ln -s  ~/Neovim-configuration/vimrc ~/.config/nvim/init.vim
 ```
 
@@ -23,9 +23,9 @@ ln -s  ~/Neovim-configuration/vimrc ~/.config/nvim/init.vim
 
 * [Lightline](https://github.com/itchyny/lightline.vim)
 
-* [NerdTree](https://github.com/scrooloose/nerdtree)
-
 * [Supertab](https://github.com/ervandew/supertab)
+
+* [NerdTree](https://github.com/scrooloose/nerdtree)
 
 * [Git Gutter](https://github.com/airblade/vim-gitgutter)
 
