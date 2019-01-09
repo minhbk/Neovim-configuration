@@ -1,5 +1,14 @@
 <h1>My config neovim file</h1>
 
+<h2>Install:</h2>
+```
+cd ~
+git clone https://github.com/minhbk/Neovim-configuration.git
+mkdir ~/.config
+cd .config
+mkdir ~/nvim
+ln -s  ~/Neovim-configuration/vimrc ~/.config/nvim/init.vim
+```
 
 <h2>Plugin Management:</h2>
 
