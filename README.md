@@ -1,6 +1,7 @@
 <h1>My config neovim file</h1>
 
 <h2>Install:</h2>
+
 ```
 mkdir -p ~/.config ~/.vim && \
 mkdir -p ~/.vim/bundle ~/.vim/autoload && \
